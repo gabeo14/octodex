@@ -7,3 +7,42 @@ body {
   min-height: 100%;
   font: 16px / 1 sans-serif;
 }
+
+header {
+  background-color: #f3f3f3;
+  display: flex;
+  justify-content: space-between;
+}
+
+header img {
+  height: 22px;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+}
+
+article {
+  margin: 0 auto;
+  width: 80%;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer img {
+  width: 28px;
+  height: 28px;
+}
+
+img.octopic {
+  width: 100%;
+  border: 1px solid #cacaca;
+}
+
+p.img-num {
+  justify-self: left;
+}
